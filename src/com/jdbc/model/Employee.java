@@ -6,6 +6,13 @@ public class Employee {
 	private String employeeAddress;
 	private Double employeeSalary;
 	
+	public Employee(int employeeId, String employeeName, String employeeAddress, Double employeeSalary) {
+		super();
+		this.employeeId = employeeId;
+		this.employeeName = employeeName;
+		this.employeeAddress = employeeAddress;
+		this.employeeSalary = employeeSalary;
+	}
 	public Employee(String employeeName, String employeeAddress, Double employeeSalary) {
 		super();
 		this.employeeName = employeeName;
